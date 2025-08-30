@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="scrambleCSS.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Jua&family=Klee+One&display=swap" rel="stylesheet">
+
+    <title>Cheezy's Word Scrambler</title>
+</head>
+<body>
+    <header>
+        <h1>Cheezy's Word Scrambler</h1>
+        <h2>Scramble the letters of a word (Even if it doesn't make sense)</h2>
+    </header>
+    
+    <div class="specs">
+        <div class="input_class" id="word_input">
+            <label for="input">Your text here</label>
+            <input type="text" id="input" name="user_input" />
+        </div>
+        
+        <div class="input_class" id="amount_input">
+            <label for="generate_number">Number of times to randomize (Max. 25)</label>
+            <input type="number" id="generate_number" min="1" max="25" />
+        </div>
+
+        <div class="input_class" id="rand_buttom">
+            <button type="button"  onclick="getGenAmount()">Randomize</button>
+        </div>
+    </div>
+
+    <div class="generations">
+        <div class="rows" id="row1">
+            <div class="wordbox" id="word1"> --- </div>
+            <div class="wordbox" id="word2"> --- </div>
+            <div class="wordbox" id="word3"> --- </div>
+            <div class="wordbox" id="word4"> --- </div>
+            <div class="wordbox" id="word5"> --- </div>
+        </div>
+        <div class="rows" id="row2">
+            <div class="wordbox" id="word6"> --- </div>
+            <div class="wordbox" id="word7"> --- </div>
+            <div class="wordbox" id="word8"> --- </div>
+            <div class="wordbox" id="word9"> --- </div>
+            <div class="wordbox" id="word10"> --- </div>
+        </div>
+        <div class="rows" id="row3">
+            <div class="wordbox" id="word11"> --- </div>
+            <div class="wordbox" id="word12"> --- </div>
+            <div class="wordbox" id="word13"> --- </div>
+            <div class="wordbox" id="word14"> --- </div>
+            <div class="wordbox" id="word15"> --- </div>
+        </div>
+        <div class="rows" id="row4">
+            <div class="wordbox" id="word16"> --- </div>
+            <div class="wordbox" id="word17"> --- </div>
+            <div class="wordbox" id="word18"> --- </div>
+            <div class="wordbox" id="word19"> --- </div>
+            <div class="wordbox" id="word20"> --- </div>
+        </div>
+        <div class="rows" id="row5">
+            <div class="wordbox" id="word21"> --- </div>
+            <div class="wordbox" id="word22"> --- </div>
+            <div class="wordbox" id="word23"> --- </div>
+            <div class="wordbox" id="word24"> --- </div>
+            <div class="wordbox" id="word25"> --- </div>
+        </div>
+    </div>
+
+    <script src="WordScrambleJS.js"></script>
+
+</body>
+</html>

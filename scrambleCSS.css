@@ -1,0 +1,126 @@
+﻿body {
+    max-height: none;
+    min-height: 100vh;
+    max-width: none;
+    min-width: 100vw;
+    background: linear-gradient(#ffffff, #ffc4d6);
+    background-repeat: no-repeat;
+}
+
+header h1 {
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 75px;
+    margin: 0;
+}
+
+header h2 {
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+.specs
+{
+
+}
+
+.input_class
+{
+    padding-bottom: 20px;
+}
+
+.input_class button
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input_class label
+{
+    text-align: center;
+}
+
+input, label
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+label {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+input {
+    height: 35px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #000000;
+    font-family: monospace;
+    font-size: 18px;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #000000;
+    font-family: monospace;
+    font-size: 22px;
+    text-align: center;
+    background-color: #ffffff;
+    transition-duration: 0.3s;
+}
+
+    button:hover {
+        background-color: #f05478;
+        border: 3px solid #f05478;
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+.generations {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border-radius: 25px;
+    border: 3px solid #000000;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.rows
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+
+.wordbox {
+    font-family: "Klee One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0);
+}
