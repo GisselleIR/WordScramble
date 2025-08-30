@@ -1,0 +1,1 @@
+There have been many times where I look up "Word Scrambler" for the purpose of coming up with fantasy names and locations, though it's a little silly.  The problem is, the only results I ever get are word UN-scramblers, for the purposes of games like Scrabble.  So I finally just made this for myself because I had the time.
